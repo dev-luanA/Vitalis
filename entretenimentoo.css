@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background-color: #f0f4f8;
+    padding: 40px;
+    text-align: center; /* Mantém o alinhamento central para elementos que não são alterados */
+}
+
+.hero-content {
+    text-align: right; /* Alinhamento à direita para o texto */
+    max-width: 800px; /* Largura máxima para o texto */
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 0 20px; /* Adiciona espaçamento lateral */
+}
+
+.hero-content img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+    float: left; /* Imagens flutuam à esquerda */
+}
+
+main {
+    padding: 20px;
+}
+
+.atividades ol {
+    padding-left: 20px;
+}
+
+.cards, .executando {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card, .exec-card {
+    background: #f0f4f8;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.exec-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.politicas-publicas h3 {
+    font-size: 24px; /* Altere o tamanho conforme necessário */
+    text-align: center;
+}
+
+.politicas-em-execucao h3 {
+    font-size: 24px; /* Ajuste o tamanho conforme necessário */
+    text-align: center; /* Centraliza o texto */
+}
+
+.politicas-em-execucao img {
+    display: block; /* Faz a imagem se comportar como um bloco */
+    margin: 0 auto; /* Centraliza a imagem */
+    max-width: 60%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+footer {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .footer-section {
+    flex: 1;
+    margin: 20px;
+}
+
+footer .footer-logo {
+    max-width: 240px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #968EEB;
+}
+
+footer p {
+    color: #333;
+}
+
+
+
+
+
+
+
+.container2 {
+    max-width: 800px; /* Limita a largura máxima do container */
+    margin: 0 auto; /* Centraliza o container */
+    padding: 40px 20px; /* Adiciona espaçamento nas laterais e parte superior/inferior */
+    width: 100%; /* Garante que o container ocupe toda a largura disponível */
+}
+
+h1 {
+    text-align: center; /* Centraliza o texto do h1 */
+    margin-bottom: 30px; /* Adiciona um espaçamento inferior para afastar o h1 do conteúdo abaixo */
+    font-size: 28px; /* Ajuste de tamanho de fonte, opcional */
+    color: #333; /* Cor do texto, opcional */
+}
+
+.activity {
+    margin: 20px auto; /* Centraliza cada atividade e adiciona espaçamento */
+    padding: 20px; /* Espaçamento interno */
+    max-width: 90%; /* Limita a largura de cada atividade */
+    background-color: transparent; /* Remove o fundo branco */
+    border-radius: 0; /* Remove as bordas arredondadas */
+    box-shadow: none; /* Remove a sombra leve */
+}
+
+.number {
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #333;
+}
+
+.content2 {
+    max-width: 100%;
+    padding: 0 10px; /* Espaçamento interno */
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #9e5edb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}

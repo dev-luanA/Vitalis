@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    overflow-x: hidden; 
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+header .logo img {
+    height: 150px;
+  
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.5s ease;
+}
+
+header ul li a:hover {
+    color: #968EEB;
+}
+
+.mancha {
+    position: absolute;
+    top: -200px; /* Ajuste para mover a mancha para cima */
+    right: -200px; /* Ajuste este valor para mover mais para a direita */
+    width: 55%;
+    z-index: 1; /* Fica atrás do conteúdo */
+}
+
+.mancha img {
+    width: 75%;
+    height: auto;
+    object-fit: cover;
+}
+
+.outra-imagem {
+    position: absolute;
+    top: 150px; /* Ajuste para descer um pouco em relação à mancha */
+    right: 30px; /* Ajuste para mover mais para a esquerda em relação à mancha */
+    z-index: 2; /* Fica acima da mancha */
+}
+
+.outra-imagem img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px; /* Ajuste o valor conforme necessário */
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 20px;
+    position: relative;
+    z-index: 2; /* Fica acima da mancha */
+}
+
+.center-text {
+    text-align: center;
+}
+
+.primeirafrase {
+    color: #968EEB;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #968EEB;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.middle-images-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.middle-image {
+    width: 40%;
+    margin: 0 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.reference {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.reference h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.reference-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.reference-item {
+    background-color: #fff;
+    border: 2px solid #968EEB;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    max-width: 300px;
+}
+
+.reference-item h3 {
+    color: #968EEB;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.reference-item p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.reference-item strong {
+    font-weight: bold;
+}
+
+.reference-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.reference-item:active {
+    transform: translateY(0px) scale(0.98);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.novas-oportunidades {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.small-image {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .footer-section {
+    flex: 1;
+    margin: 20px;
+}
+
+footer .footer-logo {
+    max-width: 240px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #968EEB;
+}
+
+footer p {
+    color: #333;
+}
+
+.nav-links {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Exibe os itens da lista em linha */
+    justify-content: flex-end; /* Alinha os itens à direita */
+    margin: 0; /* Remove margens padrão */
+    padding: 0;
+    max-width: 70%; /* Reduz a área de navegação para 70% da tela */
+    padding-right: 0; /* Remova o padding à direita */
+    position: relative; /* Torna possível ajustar a posição */
+    top: -100px; /* Ajuste conforme necessário para trazer para cima */
+    right: -270px; /* Ajuste esse valor para trazer para a direita */
+}
+
+  
+.nav-links li {
+    margin-left: 30px; /* Reduz a margem entre os itens */
+}
+  
+.nav-links a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: black; /* Define a cor do texto dos links */
+    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.referencia {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.large-image {
+    width: 80%; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.cards-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card {
+    background-color: #fff; /* Mantenha o fundo branco */
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px; /* Mantenha a largura */
+    height: 250px; /* Defina uma altura fixa para tornar o card quadrado */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-1 {
+    background-color: #968EEB; /* Cor original */
+}
+
+.card-2 {
+    background-color: #5BCE5F; /* Cor original */
+}
+
+.card-3 {
+    background-color: #968EEB; /* Cor original */
+}
+
+.card-4 {
+    background-color: #5BCE5F; /* Cor original */
+}
+
+.card h3 {
+    font-size: 1.2em;
+    color: #000; /* Cor do texto do título em preto */
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    color: #000; /* Cor do texto do parágrafo em preto */
+    margin-bottom: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #000; /* Cor do link em preto */
+    font-size: 1.5em;
+    align-self: flex-end;
+    transition: color 0.3s ease;
+}
+
+.card a:hover {
+    color: #968EEB;
+}

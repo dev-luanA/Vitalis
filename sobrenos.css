@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.hero .content {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.hero img {
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+.highlights {
+    display: flex;
+    padding: 40px;
+    background-color: #f4f4f4;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.highlight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.highlight img {
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+.highlight .text {
+    max-width: 50%;
+}
+
+.highlight h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.highlight p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.about {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-card {
+    background-color: #4CAF50;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-card {
+    background-color: #4CAF50;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.thank-you {
+    text-align: center;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.thank-you img {
+    max-width: 30%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.inspiration {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.inspiration h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.inspiration-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.faq {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    background-color: #fff;
+    color: #333;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    outline: none;
+}
+
+.faq-question:hover {
+    background-color: #f0f0f0;
+}
