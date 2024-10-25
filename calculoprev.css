@@ -35,7 +35,6 @@ header {
     color: #968EEB; /* Cor do link ao passar o mouse */
 }
 
-
 .container {
     width: 70%;
     margin: 0 auto;
@@ -43,26 +42,24 @@ header {
 }
 
 .header {
-    text-align: center;
+    text-align: left; /* Alinha o título à esquerda */
     padding: 20px 0;
 }
 
 .grid-content {
-    display: grid;
-    grid-template-columns: 1fr 1.7fr; /* Divide o layout em 2 colunas iguais */
-    gap: 2px; /* Reduzido para aproximar a imagem do texto */
-    align-items: center; /* Centraliza verticalmente os itens */
+    display: flex; /* Altera para flexbox para que os itens fiquem ao lado */
+    align-items: flex-start; /* Alinha os itens no início */
+    gap: 45px; /* Adiciona espaçamento entre os itens */
 }
 
 .text-content {
     text-align: left; /* Mantém o texto alinhado à esquerda */
-    margin-left: 10px; /* Você pode ajustar ou remover essa margem conforme necessário */
 }
-
 
 .image-grid {
     max-width: 100%;
     border-radius: 8px;
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo da imagem */
 }
 
 .section {
@@ -168,7 +165,6 @@ header {
     font-size: 14px;
     color: #666; /* Cor do texto */
 }
-
 
 footer {
     background-color: #f1f1f1;
