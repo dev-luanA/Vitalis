@@ -164,7 +164,14 @@ footer p {
 
 
 
-
+.politicas-publicas img,
+.politicas-em-execucao img {
+    width: 150px; /* Ajuste a largura conforme necessário */
+    height: 150px; /* Ajuste a altura conforme necessário */
+    object-fit: cover; /* Mantém a proporção da imagem, cortando se necessário */
+    border-radius: 8px; /* Bordas arredondadas (opcional) */
+    margin: 10px; /* Espaçamento entre as imagens */
+}
 
 
 

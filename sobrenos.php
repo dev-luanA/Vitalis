@@ -4,91 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vitalis</title>
+    <script src="sobrenos.js" defer></script>
     <link rel="stylesheet" href="sobrenos.css">
 </head>
 <body>
     <header>
-        <button class="menu-btn">Menu</button>
+        <button class="menu-btn" onclick="toggleMenu()">&#9776; Menu</button>
+        <nav id="nav-menu" class="nav-menu">
+            <ul>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="inicio.php">Serviços</a></li>
+                <li><a href="home.php">Agradecimentos</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="hero">
-        <div class="content">
-            <h1>Conheça nossa empresa</h1>
-            <p>Trabalhamos de forma colaborativa para garantir que nossos clientes recebam o melhor tratamento e suporte possível.</p>
-        </div>
-        <img src="imgsobrenos/um.png" alt="Imagem de um casal idoso">
+    <section class="conheca">
+        <img src="imgsobrenos/conheca.png" alt="Imagem de um casal idoso">
     </section>
 
-    <section class="highlights">
-        <div class="highlight">
-            <img src="imgsobrenos/dois.png" alt="Cuidado com idosos">
-            <div class="text">
-                <h2>Principais características da empresa</h2>
-                <p>Buscamos trazer inovação, missão, comprometimento e empatia.</p>
-                <a href="#" class="btn">Veja mais</a>
-            </div>
-        </div>
+    <section class="principais" id="services">
+        <img src="imgsobrenos/principais.png" alt="Cuidado com idosos">
     </section>
 
-    <section class="about">
-        <h2>Venha nos conhecer melhor!</h2>
-        <div class="about-us">
-            <div class="about-card">
-                <h3>Quem nós somos?</h3>
-                <a href="#" class="btn">Nos conheça melhor!</a>
-            </div>
-            <img src="imgsobrenos/tres.png" alt="Equipe colaborativa">
-        </div>
+    <section class="quemnossomos">
+        <h2>Venha nos conhecer <br> melhor!</h2>
+        <img src="imgsobrenos/quemnosomos.png" alt="Equipe colaborativa">
     </section>
 
-    <section class="contact">
-        <h2>Nos contate através de nosso email</h2>
-        <div class="contact-card">
-            <p>Desejamos te conhecer e saber as mudanças que você precisa.</p>
-            <img src="imgsobrenos/quatro.png" alt="Ícones de email">
-            <a href="#" class="btn">Entre em contato</a>
-        </div>
+    <section class="desejamos">
+        <h2>Nos contate através <br> de nosso email</h2>
+        <img src="imgsobrenos/desejamos.png" alt="Equipe colaborativa">
     </section>
 
-    <section class="thank-you">
-        <p>Obrigado por fazer parte!</p>
-        <img src="imgsobrenos/cinco.png" alt="Aperto de mãos">
+    <section class="obrigado" id="thanks">
+        <img src="imgsobrenos/obrigado.png" alt="Equipe colaborativa">
     </section>
 
     <section class="inspiration">
-    <h2>Inspirando pessoas a se conhecerem.</h2>
-    <div class="inspiration-cards">
-        <div class="card">
-            <img src="imgsobrenos/seis.png" alt="Informações sobre trabalho">
-            <p>Informações especiais sobre trabalho</p>
+        <h2>Inspirando pessoas a <br> se conhecerem.</h2>
+        <div class="inspiration-cards">
+            <img src="imgsobrenos/informacoes.png" alt="Informações sobre trabalho">
+            <img src="imgsobrenos/busca.png" alt="Busca pelo autoconhecimento">
+            <img src="imgsobrenos/sesentir.png" alt="Se sentir acolhido">
+            <img src="imgsobrenos/entretenimento.png" alt="Entretenimento personalizado">
         </div>
-        <div class="card">
-            <img src="imgsobrenos/sete.png" alt="Busca pelo autoconhecimento">
-            <p>Busca pelo autoconhecimento</p>
-        </div>
-        <div class="card">
-            <img src="imgsobrenos/oito.png" alt="Se sentir acolhido">
-            <p>Se sentir acolhido</p>
-        </div>
-        <div class="card">
-            <img src="imgsobrenos/nove.png" alt="Entretenimento personalizado">
-            <p>Entretenimento personalizado</p>
-        </div>
-    </div>
-</section>
-
-<section class="faq">
-    <h2>Dúvidas Frequentes</h2>
-    <div class="faq-item">
-        <button class="faq-question">O que devo fazer para calcular a previdência?</button>
-    </div>
-    <div class="faq-item">
-        <button class="faq-question">Como posso me entreter?</button>
-    </div>
-    <div class="faq-item">
-        <button class="faq-question">Como a Vitalis pode ajudar em seu problema?</button>
-    </div>
-</section>
-
+    </section>
 </body>
 </html>
