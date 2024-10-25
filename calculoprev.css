@@ -6,19 +6,60 @@ body {
     background-color: #f9f9f9;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-left: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+    padding: 8px 12px;
+}
+
+.nav-links a:hover {
+    color: #968EEB;
+}
+
 .container {
-    width: 70%; /* Alterado para 70% */
+    width: 70%;
     margin: 0 auto;
     padding: 20px;
 }
 
 .header {
-    text-align: center;
+    text-align: left;
     padding: 20px 0;
 }
 
-.header h1 {
-    color: #333;
+.grid-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.text-content {
+    text-align: left;
+}
+
+.image-grid {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 .section {
@@ -29,43 +70,31 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.section img {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
-
-.section h2 {
-    font-size: 24px;
-    color: #333;
-}
-
-.section p {
-    font-size: 16px;
-    color: #666;
-}
-
 .purple-box {
     background-color: #e0d7f5;
-    padding: 20px;
+    padding: 40px 20px;
     border-radius: 8px;
-    margin: 40px 0;
+    margin: 60px 0;
     text-align: center;
 }
 
 .purple-box h2 {
     color: #4b3f72;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 .purple-box p {
     color: #333;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 .info-box {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .info-box img {
@@ -76,26 +105,26 @@ body {
 
 .info-box span {
     color: #999;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .contribution-content {
     display: flex;
-    align-items: center; /* Alinha verticalmente */
-    justify-content: space-between; /* Espaço entre o texto e a imagem */
+    align-items: center;
+    justify-content: space-between;
 }
 
 .contribution-content p {
-    flex: 1; /* O texto ocupa o espaço restante */
-    margin-right: 20px; /* Espaço entre o texto e a imagem */
+    flex: 1;
+    margin-right: 20px;
 }
 
 .contribution-image {
-    max-width: 200px; /* Defina o tamanho máximo da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 8px; /* Bordas arredondadas */
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
 }
-/* New styles for images section */
+
 .images-section {
     display: flex;
     justify-content: space-between;
@@ -105,7 +134,12 @@ body {
 .images-section .image-box {
     flex: 1;
     margin-right: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .images-section .image-box:last-child {
@@ -119,11 +153,15 @@ body {
     margin-bottom: 10px;
 }
 
-/* Novas regras para justificar texto e modificar a fonte */
+.images-section .image-box h3 {
+    margin: 10px 0;
+    color: #4b3f72;
+}
+
 .images-section .image-box p {
-    text-align: justify; /* Justifica o texto */
-    font-size: 14px; /* Tamanho de letra menor */
-    color: #666; /* Cor da fonte mais clara */
+    text-align: justify;
+    font-size: 14px;
+    color: #666;
 }
 
 footer {
@@ -148,7 +186,7 @@ footer .footer-section {
 }
 
 footer .footer-logo {
-    max-width: 240px;
+    max-width: 200px;
     margin-bottom: 10px;
 }
 
@@ -174,35 +212,68 @@ footer p {
     color: #333;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    position: relative;
-    z-index: 2;
+/* Media Queries para Responsividade */
+@media (max-width: 1200px) {
+    .container {
+        width: 90%; /* Largura do container para telas menores */
+    }
+
+    .grid-content {
+        flex-direction: column; /* Muda para coluna em telas pequenas */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    .text-content {
+        text-align: center; /* Centraliza o texto no mobile */
+    }
+
+    .images-section {
+        flex-direction: column; /* Muda para coluna em telas menores */
+    }
+
+    .images-section .image-box {
+        margin-right: 0; /* Remove margem direita */
+        margin-bottom: 20px; /* Adiciona espaço inferior entre boxes */
+    }
 }
 
-header .logo img {
-    height: 150px;
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column; /* Muda a direção para coluna em telas menores */
+        align-items: flex-start; /* Alinha os links à esquerda */
+    }
+
+    .nav-links li {
+        margin-left: 0; /* Remove margem esquerda */
+        margin-bottom: 10px; /* Adiciona espaço entre os links */
+    }
+
+    header {
+        flex-direction: column; /* Muda o layout do header para coluna */
+        align-items: flex-start; /* Alinha à esquerda */
+    }
+
+    .purple-box {
+        padding: 20px; /* Reduz o padding na caixa roxa */
+    }
+
+    .purple-box h2 {
+        font-size: 24px; /* Tamanho da fonte do título reduzido */
+    }
 }
 
-header ul {
-    display: flex;
-    list-style: none;
-    margin-bottom: 20px;
-}
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 24px; /* Reduz o tamanho do título em telas pequenas */
+    }
 
-header ul li {
-    margin: 0 15px;
-}
+    .purple-box p,
+    .info-box span,
+    .images-section .image-box p {
+        font-size: 14px; /* Reduz o tamanho da fonte para textos menores */
+    }
 
-header ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: color 0.5s ease;
-}
-
-header ul li a:hover {
-    color: #968EEB;
+    footer .footer-section {
+        margin: 10px 0; /* Ajusta margens do footer */
+    }
 }

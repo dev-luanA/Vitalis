@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <link rel="stylesheet" href="home.css">
 </head>
+
 <body>
   <header>
     <div class="logo">
       <img src="img/logo.png" alt="Logo">
     </div>
-      <ul class="nav-links">
-        <li><a href="inicio.php">Início</a></li>
-        <li><a href="sobrenos.php">Quem somos</a></li>
-        <li><a href="#servicos">Serviços</a></li>
-        <li><a href="#feedbacks">Agradecimentos</a></li>
-        <li><a href="entrar.php">Entrar</a></li>
-      </ul>
+    <ul class="nav-links">
+      <li><a href="inicio.php">Início</a></li>
+      <li><a href="sobrenos.php">Quem somos</a></li>
+      <li><a href="servicos.php">Serviços</a></li>
+      <li><a href="entrar.php">Entrar</a></li>
+    </ul>
   </header>
 
-  <div class="mancha">
-    <img src="img/mancha.png" alt="Mancha" />
-</div>
-<div class="outra-imagem">
-    <img src="img/manchaidosos.png" alt="Outra Imagem" />
-</div>
-
-<section class="hero">
-    <p class="primeirafrase" style="color: #968EEB;">Cuidando e inspirando a Melhor Idade</p>
-    <h1>Planeje hoje, aproveite <br> o amanhã com segurança e <br> tranquilidade.</h1>
-    <p>A Vitalis é uma plataforma dedicada a melhorar a qualidade de vida da pessoa idosa, <br> oferecendo soluções integradas em saúde, entretenimento e mentoria. Nossa missão <br> é promover o bem-estar e a inclusão da terceira idade, conectando serviços <br> essenciais e informações de forma acessível e intuitiva.</p>
-    <button class="cta-button" onclick="window.location.href='cadastro.php'">Faça parte agora!</button>
-</section>
+  <div class="hero">
+    <div class="conteudo">
+      <p class="primeirafrase" style="color: #968EEB;">Cuidando e inspirando a Melhor Idade</p>
+      <h1>Planeje hoje, aproveite <br> o amanhã com segurança e <br> tranquilidade.</h1>
+      <p>A Vitalis é uma plataforma dedicada a melhorar a qualidade de vida da pessoa idosa, <br> oferecendo soluções integradas em saúde, entretenimento e mentoria. Nossa missão <br> é promover o bem-estar e a inclusão da terceira idade, conectando serviços <br> essenciais e informações de forma acessível e intuitiva.</p>
+      <button class="cta-button" onclick="window.location.href='cadastro.php'">Faça parte agora!</button>
+    </div>
+    <div class="imagem-hero">
+      <img class="hero-image" src="img/idosocasal.jpg" alt="Imagem Hero"> <!-- Adicione essa linha -->
+    </div>
+  </div>
 
   <section class="novas-oportunidades" id="quemsomos">
     <h1 class="center-text">Novas Oportunidades</h1>
@@ -47,28 +46,28 @@
     <h1>Somos referência</h1>
     <br>
     <div class="card-container">
-        <div class="card card-1">
-            <h3>Cuidados especiais</h3>
-            <p>O serviço de cuidado da Vitalis conecta idosos a cuidadores qualificados.</p>
-            <a href="saudeidoso.php">→</a>
-        </div>
-        <div class="card card-2">
-            <h3>Alternativas de entretenimento</h3>
-            <p>A Vitalis oferece alternativas de entretenimento para idosos, incentivando o engajamento e a socialização de maneira divertida e inclusiva.</p>
-            <a href="entretenimento.php">→</a>
-        </div>
-        <div class="card card-3">
-            <h3>Know How</h3>
-            <p>A Vitalis disponibiliza um espaço de mentoria "Know How", onde idosos podem compartilhar sua vasta experiência profissional com jovens e iniciantes.</p>
-            <a href="knowhow.php">→</a>
-        </div>
-        <div class="card card-4">
-            <h3>Previdência</h3>
-            <p>A Vitalis oferece um recurso de cálculo previdenciário, onde os usuários podem entender de forma simples como funciona o sistema atual de aposentadoria.</p>
-            <a href="calculoprevidencia.php">→</a>
-        </div>
+      <div class="card card-1">
+        <h3>Cuidados especiais</h3>
+        <p>O serviço de cuidado da Vitalis conecta idosos a cuidadores qualificados.</p>
+        <a href="saudeidoso.php">→</a>
+      </div>
+      <div class="card card-2">
+        <h3>Alternativas de entretenimento</h3>
+        <p>A Vitalis oferece alternativas de entretenimento para idosos, incentivando o engajamento e a socialização de maneira divertida e inclusiva.</p>
+        <a href="entretenimento.php">→</a>
+      </div>
+      <div class="card card-3">
+        <h3>Know How</h3>
+        <p>A Vitalis disponibiliza um espaço de mentoria "Know How", onde idosos podem compartilhar sua vasta experiência profissional com jovens e iniciantes.</p>
+        <a href="knowhow.php">→</a>
+      </div>
+      <div class="card card-4">
+        <h3>Previdência</h3>
+        <p>A Vitalis oferece um recurso de cálculo previdenciário, onde os usuários podem entender de forma simples como funciona o sistema atual de aposentadoria.</p>
+        <a href="calculoprevidencia.php">→</a>
+      </div>
     </div>
-</section>
+  </section>
 
   <section class="reference" id="feedbacks">
     <h1>O que os usuários relatam.</h1>
@@ -116,4 +115,5 @@
     </div>
   </footer>
 </body>
+
 </html>
