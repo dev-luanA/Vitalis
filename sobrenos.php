@@ -13,7 +13,7 @@
         <nav id="nav-menu" class="nav-menu">
             <ul>
                 <li><a href="home.php">Home</a></li>
-                <li><a href="inicio.php">Serviços</a></li>
+                <li><a href="servicos.php">Serviços</a></li>
                 <li><a href="home.php">Agradecimentos</a></li>
             </ul>
         </nav>
