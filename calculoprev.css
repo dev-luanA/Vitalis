@@ -6,8 +6,38 @@ body {
     background-color: #f9f9f9;
 }
 
+header {
+    display: flex;
+    align-items: center; /* Alinha verticalmente a logo e a navbar */
+    justify-content: space-between; /* Espaça logo e navbar */
+    padding: 10px 20px; /* Adiciona algum espaço interno */
+}
+
+.nav-links {
+    display: flex; /* Garante que os links fiquem em linha */
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento */
+    margin: 0; /* Remove margens */
+}
+
+.nav-links li {
+    margin-left: 15px; /* Diminui o espaço entre os links */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #333; /* Cor do texto do link */
+    transition: color 0.3s ease; /* Efeito de transição na cor do link */
+    padding: 8px 12px; /* Adiciona preenchimento ao redor dos links */
+}
+
+.nav-links a:hover {
+    color: #968EEB; /* Cor do link ao passar o mouse */
+}
+
+
 .container {
-    width: 70%; /* Alterado para 70% */
+    width: 70%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -17,8 +47,22 @@ body {
     padding: 20px 0;
 }
 
-.header h1 {
-    color: #333;
+.grid-content {
+    display: grid;
+    grid-template-columns: 1fr 1.7fr; /* Divide o layout em 2 colunas iguais */
+    gap: 2px; /* Reduzido para aproximar a imagem do texto */
+    align-items: center; /* Centraliza verticalmente os itens */
+}
+
+.text-content {
+    text-align: left; /* Mantém o texto alinhado à esquerda */
+    margin-left: 10px; /* Você pode ajustar ou remover essa margem conforme necessário */
+}
+
+
+.image-grid {
+    max-width: 100%;
+    border-radius: 8px;
 }
 
 .section {
@@ -29,43 +73,33 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.section img {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
-
-.section h2 {
-    font-size: 24px;
-    color: #333;
-}
-
-.section p {
-    font-size: 16px;
-    color: #666;
-}
-
+/* Estilo para a Caixa Roxa */
 .purple-box {
-    background-color: #e0d7f5;
-    padding: 20px;
+    background-color: #e0d7f5; /* Cor de fundo roxa suave */
+    padding: 40px 20px;
     border-radius: 8px;
-    margin: 40px 0;
+    margin: 60px 0; /* Espaçamento entre o conteúdo acima e abaixo */
     text-align: center;
 }
 
 .purple-box h2 {
-    color: #4b3f72;
+    color: #4b3f72; /* Cor do título roxa mais forte */
+    font-size: 28px; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Espaço inferior do título */
 }
 
 .purple-box p {
     color: #333;
+    font-size: 16px;
+    line-height: 1.6; /* Para espaçamento entre as linhas do texto */
 }
 
+/* Estilo da Caixa de Informações (Ícone e Texto) */
 .info-box {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    justify-content: center;
+    margin-top: 30px; /* Espaçamento entre o texto e o ícone */
 }
 
 .info-box img {
@@ -76,26 +110,26 @@ body {
 
 .info-box span {
     color: #999;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .contribution-content {
     display: flex;
-    align-items: center; /* Alinha verticalmente */
-    justify-content: space-between; /* Espaço entre o texto e a imagem */
+    align-items: center;
+    justify-content: space-between;
 }
 
 .contribution-content p {
-    flex: 1; /* O texto ocupa o espaço restante */
-    margin-right: 20px; /* Espaço entre o texto e a imagem */
+    flex: 1;
+    margin-right: 20px;
 }
 
 .contribution-image {
-    max-width: 200px; /* Defina o tamanho máximo da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 8px; /* Bordas arredondadas */
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
 }
-/* New styles for images section */
+
 .images-section {
     display: flex;
     justify-content: space-between;
@@ -105,26 +139,36 @@ body {
 .images-section .image-box {
     flex: 1;
     margin-right: 20px;
-    text-align: center;
+    padding: 20px; /* Adicionado preenchimento */
+    background-color: #fff; /* Fundo branco para cada box */
+    border: 1px solid #e0e0e0; /* Borda sutil */
+    border-radius: 8px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para efeito de profundidade */
 }
 
 .images-section .image-box:last-child {
-    margin-right: 0;
+    margin-right: 0; /* Remove margem direita do último box */
 }
 
 .images-section img {
     width: 100%;
     max-width: 200px;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    border-radius: 8px; /* Bordas arredondadas para as imagens */
+    margin-bottom: 10px; /* Espaçamento inferior */
 }
 
-/* Novas regras para justificar texto e modificar a fonte */
+.images-section .image-box h3 {
+    margin: 10px 0; /* Margem entre o título e o texto */
+    color: #4b3f72; /* Cor do título */
+}
+
 .images-section .image-box p {
     text-align: justify; /* Justifica o texto */
-    font-size: 14px; /* Tamanho de letra menor */
-    color: #666; /* Cor da fonte mais clara */
+    font-size: 14px;
+    color: #666; /* Cor do texto */
 }
+
 
 footer {
     background-color: #f1f1f1;
@@ -148,7 +192,7 @@ footer .footer-section {
 }
 
 footer .footer-logo {
-    max-width: 240px;
+    max-width: 200px;
     margin-bottom: 10px;
 }
 
@@ -172,37 +216,4 @@ footer ul li a:hover {
 
 footer p {
     color: #333;
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    position: relative;
-    z-index: 2;
-}
-
-header .logo img {
-    height: 150px;
-}
-
-header ul {
-    display: flex;
-    list-style: none;
-    margin-bottom: 20px;
-}
-
-header ul li {
-    margin: 0 15px;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: color 0.5s ease;
-}
-
-header ul li a:hover {
-    color: #968EEB;
 }

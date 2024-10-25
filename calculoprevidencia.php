@@ -22,52 +22,53 @@
 </header>
 
 <div class="container">
-    <!-- Header Section -->
     <div class="header">
         <h1>Como funciona a previdência?</h1>
-        <img src="img/funcionaprevidencia.png" alt="Imagem representando previdência">
-        <p>O sistema previdenciário brasileiro opera como uma poupança obrigatória, onde os trabalhadores e empregadores realizam contribuições ao salário ou ao contribuinte individual.</p>
-        <ul>
-            <li>O objetivo é garantir que, ao contribuir um saldo proporcional ao seu salário, o assegurado tenha uma fonte de renda durante a aposentadoria.</li>
-            <li>Além da aposentadoria, o sistema oferece benefícios como auxílio-doença, licença e outros auxílios sociais.</li>
-        </ul>
+        <div class="grid-content">
+            <img src="img/funcionaprevidencia.png" alt="Imagem representando previdência" class="image-grid">
+            <div class="text-content">
+                <p>O sistema previdenciário brasileiro opera como uma poupança compulsória ou voluntária, com pagamentos mensais proporcionais ao salário ou contribuição voluntária.</p>
+                <p>O valor pago garante ao contribuinte um salário proporcional à sua contribuição, assegurando uma fonte de renda na aposentadoria.</p>
+                <p>Além da aposentadoria, o sistema oferece benefícios como auxílios doença, licenças e outros auxílios sociais.</p>
+            </div>
+        </div>
     </div>
 
-    <!-- Purple Box Section -->
     <div class="purple-box">
         <h2>Sistema de pontos</h2>
-        <p>A aposentadoria por pontos funciona com base na idade do segurado e no tempo <br> de contribuição ao INSS. Para se aposentar, o segurado precisa atingir uma pontuação <br> mínima que varia ao longo do tempo, conforme estabelecido pela Lei 13.183/2015.</p>
+        <p>A aposentadoria por pontos funciona com base na soma da idade do segurado com o tempo de contribuição ao INSS. Para se aposentar, o segurado precisa atingir uma pontuação mínima que varia ao longo do tempo, conforme estabelecido pela Lei 13.183/2015.</p>
         <div class="info-box">
             <span>Previdência Social - Lei 13.183/2015</span>
         </div>
     </div>
 
     <div class="section contribution-section">
-    <h2>Tempo de contribuição</h2>
-    <div class="contribution-content">
-        <p>A Aposentadoria por Tempo de Contribuição é uma modalidade concedida ao trabalhador que atinge o período mínimo de contribuição estabelecido pela Previdência Social, levando em consideração outros fatores relevantes para a aposentadoria.</p>
-        <img src="img/calculoprevidencia.png" alt="Imagem Tempo de Contribuição" class="contribution-image">
+        <h2>Tempo de contribuição</h2>
+        <div class="contribution-content">
+            <p>A Aposentadoria por Tempo de Contribuição é uma modalidade concedida ao trabalhador que atinge o período mínimo de contribuição estabelecido pela Previdência Social, levando em consideração outros fatores relevantes para a aposentadoria.</p>
+            <img src="img/calculoprevidencia.png" alt="Imagem Tempo de Contribuição" class="contribution-image">
+        </div>
+    </div>
+
+    <div class="images-section">
+    <div class="image-box">
+        <img src="img/requisitos.png" alt="Imagem 1">
+        <h3>Requisitos</h3>
+        <p>A idade mínima para aposentadoria urbana é de 65 anos para homens e 62 anos para mulheres, conforme as regras do sistema previdenciário, que visam garantir o tempo necessário de contribuição antes da aposentadoria.</p>
+    </div>
+    <div class="image-box">
+        <img src="img/idademinima.png" alt="Imagem 2">
+        <h3>Idade Mínima</h3>
+        <p>A idade mínima para a aposentadoria urbana é de 65 anos para homens e 62 anos para mulheres, conforme as regras estabelecidas pelo sistema previdenciário brasileiro.</p>
+    </div>
+    <div class="image-box">
+        <img src="img/tempo.png" alt="Imagem 3">
+        <h3>Tempo de Contribuição</h3>
+        <p>Para solicitar o benefício, é exigido um mínimo de 15 anos de contribuição para mulheres e 20 anos para homens.</p>
     </div>
 </div>
 
-    <!-- Images Section -->
-    <div class="images-section">
-        <div class="image-box">
-            <img src="img/requisitos.png" alt="Imagem 1">
-            <h3>Requisitos</h3>
-            <p>A idade mínima para aposentadoria urbana é de 65 anos para homens e 62 anos para mulheres, conforme as regras do sistema previdenciário, que visam garantir o tempo necessário de contribuição antes da aposentadoria.</p>
-        </div>
-        <div class="image-box">
-            <img src="img/idademinima.png" alt="Imagem 2">
-            <h3>Idade Mínima</h3>
-            <p>A idade mínima para a aposentadoria urbana é de 65 anos para homens e 62 anos para mulheres, conforme as regras estabelecidas pelo sistema previdenciário brasileiro.</p>
-        </div>
-        <div class="image-box">
-            <img src="img/tempo.png" alt="Imagem 3">
-            <h3>Tempo de Contribuição</h3>
-            <p>Para solicitar o benefício, é exigido um mínimo de 15 anos de contribuição para mulheres e 20 anos para homens.</p>
-        </div>
-    </div>
+
 </div>
 
 <footer>
