@@ -24,7 +24,7 @@
     <img src="img/mancha.png" alt="Mancha" />
 </div>
 <div class="outra-imagem">
-    <img src="img/manchaidosos.png" alt="Outra Imagem" />
+    <img src="img/oldcouple.png" alt="Outra Imagem" />
 </div>
 
 <section class="hero">

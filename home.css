@@ -63,10 +63,12 @@ header ul li a:hover {
     top: 150px; /* Ajuste para descer um pouco em relação à mancha */
     right: 30px; /* Ajuste para mover mais para a esquerda em relação à mancha */
     z-index: 2; /* Fica acima da mancha */
+    margin-right: 10%;
+
 }
 
 .outra-imagem img {
-    width: 80%;
+    width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 15px; /* Ajuste o valor conforme necessário */
