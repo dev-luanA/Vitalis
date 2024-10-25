@@ -27,7 +27,7 @@
                         <label for="password"><i class="fa fa-lock"></i></label>
                         <input type="password" id="password" name="password" placeholder="Senha" required>
                         <span id="togglePassword" class="toggle-password">
-                            <i class="far fa-eye"></i> <!-- Ícone de olho inicial -->
+                            <i class="far fa-eye"></i> <!-- Ícone de olho -->
                         </span>
                     </div>
                     <div class="remember-me">
