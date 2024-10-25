@@ -14,7 +14,7 @@
       <ul class="nav-links">
         <li><a href="inicio.php">Início</a></li>
         <li><a href="sobrenos.php">Quem somos</a></li>
-        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="servicos.php">Serviços</a></li>
         <li><a href="#feedbacks">Agradecimentos</a></li>
         <li><a href="entrar.php">Entrar</a></li>
       </ul>
