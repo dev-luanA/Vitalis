@@ -14,7 +14,7 @@
             <img src="img/logo.png" alt="Logo Vitalis" class="logo"/>
             <ul>
                 <li><a href="inicio.php">Início</a></li>
-                <li><a href="quemsomosnos.php">Quem somos</a></li>
+                <li><a href="sobrenos.php">Quem somos</a></li>
                 <li><a href="servicos.php">Serviços</a></li>
             </ul>
         </nav>
@@ -37,19 +37,19 @@
         <img src="img/entretenimento.png" alt="Ícone Entretenimento" class="card-icon">
         <h3>Entretenimento</h3>
         <p>Proporcionamos alternativas de entretenimento voltadas para a terceira idade.</p>
-        <a href="#" class="saiba-mais entretenimento">Saiba mais</a>
+        <a href="entretenimento.php" class="saiba-mais entretenimento">Saiba mais</a>
     </div>
     <div class="service-card">
         <img src="img/comunidade.png" alt="Ícone Comunidade" class="card-icon">
         <h3>Comunidade</h3>
         <p>Os idosos podem compartilhar suas experiências, criando uma comunidade colaborativa de suporte mútuo.</p>
-        <a href="#" class="saiba-mais comunidade">Saiba mais</a>
+        <a href="home.php" class="saiba-mais comunidade">Saiba mais</a>
     </div>
     <div class="service-card">
         <img src="img/iconeprev.png" alt="Ícone Comunidade" class="card-icon">
         <h3>Previdência</h3>
         <p>Oferecemos uma ferramenta de cálculo previdenciário, simplificando e orientando o planejamento da aposentadoria.</p>
-        <a href="#" class="saiba-mais previdencia">Saiba mais</a>
+        <a href="calculoprevidencia.php" class="saiba-mais previdencia">Saiba mais</a>
     </div>
 </section>
 

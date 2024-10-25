@@ -1,51 +1,3 @@
-footer {
-    background-color: #f1f1f1;
-    padding: 40px 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-footer .container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-footer .footer-section {
-    flex: 1;
-    margin: 20px;
-}
-
-footer .footer-logo {
-    max-width: 240px;
-    margin-bottom: 10px;
-}
-
-footer ul {
-    list-style: none;
-}
-
-footer ul li {
-    margin-bottom: 10px;
-}
-
-footer ul li a {
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s ease;
-}
-
-footer ul li a:hover {
-    color: #968EEB;
-}
-
-footer p {
-    color: #333;
-}
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -55,7 +7,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 70%; /* Alterado para 70% */
     margin: 0 auto;
     padding: 20px;
 }
@@ -127,34 +79,22 @@ body {
     font-size: 12px;
 }
 
-.contribution-section {
-    margin: 40px 0;
-}
-
-.contribution-box {
+.contribution-content {
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; /* Espaço entre o texto e a imagem */
 }
 
-.contribution-box div {
-    flex: 1;
-    margin-right: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f3f3f3;
+.contribution-content p {
+    flex: 1; /* O texto ocupa o espaço restante */
+    margin-right: 20px; /* Espaço entre o texto e a imagem */
 }
 
-.contribution-box div:last-child {
-    margin-right: 0;
+.contribution-image {
+    max-width: 200px; /* Defina o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas */
 }
-
-.contribution-box h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
 /* New styles for images section */
 .images-section {
     display: flex;
@@ -179,7 +119,60 @@ body {
     margin-bottom: 10px;
 }
 
+/* Novas regras para justificar texto e modificar a fonte */
+.images-section .image-box p {
+    text-align: justify; /* Justifica o texto */
+    font-size: 14px; /* Tamanho de letra menor */
+    color: #666; /* Cor da fonte mais clara */
+}
 
+footer {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .footer-section {
+    flex: 1;
+    margin: 20px;
+}
+
+footer .footer-logo {
+    max-width: 240px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #968EEB;
+}
+
+footer p {
+    color: #333;
+}
 
 header {
     display: flex;
@@ -191,7 +184,6 @@ header {
 
 header .logo img {
     height: 150px;
-  
 }
 
 header ul {
