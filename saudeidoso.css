@@ -1,13 +1,15 @@
+/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8fc; /* Cor de fundo mais clara */
+    background-color: #f8f8fc;
 }
 
+/* Cabeçalho */
 header {
     background-color: #fff;
-    padding: 20px 60px; /* Aumentando o espaçamento lateral */
+    padding: 20px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,10 +25,10 @@ header nav a {
 
 .button {
     padding: 10px 25px;
-    background-color: #7d4ede; /* Ajuste de cor para um tom mais suave */
+    background-color: #7d4ede;
     color: white;
     border: none;
-    border-radius: 30px; /* Bordas mais arredondadas */
+    border-radius: 30px;
     cursor: pointer;
     text-decoration: none;
     font-weight: bold;
@@ -34,18 +36,18 @@ header nav a {
 }
 
 .button:hover {
-    background-color: #6740b5; /* Efeito hover */
+    background-color: #6740b5;
 }
 
+/* Seção Hero */
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 205px; /* Espaçamento maior para parecer mais espaçado */
+    padding: 60px 205px;
     background-color: #fff;
     min-height: 60vh;
 }
-
 
 .hero-content {
     flex: 1;
@@ -53,10 +55,10 @@ header nav a {
 }
 
 .hero h2 {
-    font-size: 2.5rem; /* Tamanho de fonte maior */
+    font-size: 2.5rem;
     margin-bottom: 15px;
     color: #333;
-    text-align: left; /* Ajuste de alinhamento */
+    text-align: left;
 }
 
 .hero p {
@@ -66,16 +68,13 @@ header nav a {
 }
 
 .hero-image img {
-    max-width: 350px;
-    border-radius: 20px; /* Bordas arredondadas na imagem */
-}
-.hero-image img {
-    width: 100%; 
-    max-width: 600px; 
-    height: auto; 
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 20px;
 }
 
-
+/* Seção de Atividades Físicas */
 .sections {
     padding: 60px 100px;
     text-align: center;
@@ -87,33 +86,17 @@ header nav a {
     color: #333;
 }
 
-.icon-container {
-    background-color: #8FC58A; /* Cor verde da bolinha */
-    border-radius: 50%; /* Torna o fundo redondo */
-    width: 60px; /* Largura da bolinha */
-    height: 60px; /* Altura da bolinha */
-    display: flex; /* Flexbox para centralizar o ícone */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
-    margin: 0 auto 15px; /* Centraliza a bolinha e cria espaço abaixo */
-}
-
-.icon-container i {
-    font-size: 2rem; /* Tamanho do ícone */
-    color: #000; /* Cor preta do ícone */
-}
-
-
 .cards {
     display: flex;
     justify-content: space-around;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .card {
     background-color: #fff;
     padding: 40px;
-    border-radius: 20px; /* Bordas mais arredondadas */
+    border-radius: 20px;
     width: 250px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -121,7 +104,7 @@ header nav a {
 }
 
 .card:hover {
-    transform: translateY(-10px); /* Efeito hover */
+    transform: translateY(-10px);
 }
 
 .card h3 {
@@ -129,69 +112,56 @@ header nav a {
     color: #333;
 }
 
-.cta-section {
-    background: linear-gradient(135deg, #2ecc71, #27ae60);
-    padding: 60px; /* Maior espaçamento */
-    text-align: center;
-    margin-top: 40px;
-    border-radius: 10px;
+.icon-container {
+    background-color: #8FC58A;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    color: white;
-    position: relative;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    justify-content: center;
+    margin: 0 auto 15px;
 }
 
-.cta-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: white;
-    font-weight: bold;
+.icon-container i {
+    font-size: 2rem;
+    color: #000;
 }
 
-.cta-section p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    color: white;
-}
-
-.cta-section a.button {
-    background-color: white;
-    color: #2ecc71;
-    padding: 12px 24px;
-    border-radius: 30px; /* Bordas mais arredondadas */
-    font-weight: bold;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Adicionando transição ao hover */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
-}
-
-.cta-section a.button:hover {
-    background-color: #27ae60;
-    color: white;
-    transform: translateY(-2px); /* Pequeno movimento para cima no hover */
-}
-
-.cta-section::before {
-    content: '';
-    background-image: url('img/overlay-pattern.png'); /* Se houver uma imagem de sobreposição */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.2;
-    z-index: 0;
-}
-
-.info-section h2 {
+/* Caixa verde */
+.green-box {
+    background-color: #d7f5e0;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin: 60px 100px;
     text-align: center;
-    margin-bottom: 40px;
-    color: #333;
 }
 
+.green-box h2 {
+    color: #3f724b;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.green-box p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.info-box-green {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.info-box-green span {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Seção de Informações */
 .info-section {
     padding: 60px 100px;
     background-color: #fff;
@@ -200,14 +170,24 @@ header nav a {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.info-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
 .info-item {
     display: flex;
     align-items: flex-start;
     margin-bottom: 30px;
     padding: 20px;
     border-radius: 10px;
-    border-left: 4px solid #968EEB; /* Barra na lateral esquerda */
+    border-left: 4px solid #968EEB;
     transition: background-color 0.3s;
+}
+
+.info-item:hover {
+    background-color: #968eeb15;
 }
 
 .item-number {
@@ -229,35 +209,70 @@ header nav a {
     color: #666;
 }
 
-.info-item:hover {
-    background-color: #968eeb15;
+/* Responsividade */
+@media (max-width: 1024px) {
+    header {
+        padding: 20px 30px;
+    }
+    .hero {
+        padding: 40px 80px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero h2 {
+        font-size: 2rem;
+    }
+    .sections, .green-box, .info-section {
+        padding: 40px;
+        margin: 20px;
+    }
 }
 
-.info-content {
-    margin-left: 20px;
+@media (max-width: 768px) {
+    header nav a {
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
+    .button {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+    }
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+    .sections h2 {
+        font-size: 1.8rem;
+    }
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .green-box, .info-section {
+        padding: 20px;
+        margin: 10px;
+    }
 }
 
-.ponto {
-    width: 15px;
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+    .hero p, .info-content p {
+        font-size: 1rem;
+    }
+    .card {
+        width: 100%;
+    }
+    .sections h2 {
+        font-size: 1.5rem;
+    }
+    .button {
+        padding: 5px 15px;
+        font-size: 0.8rem;
+    }
 }
-
-footer {
-    background-color: #f1f1f1;
-    padding: 60px 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-footer p {
-    color: #333;
-}
-
-footer a {
-    color: #333;
-}
-
-footer a:hover {
-    color: #7d4ede;
-}
-
