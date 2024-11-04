@@ -21,7 +21,8 @@
         <div class="hero-content">
             <h1>Planeje hoje, aproveite o amanhã com segurança e <span>tranquilidade</span></h1>
             <p>Seja bem-vindo (a).</p>
-            <a href="#" class="btn-primary">Leia mais</a>
+            <a href="imgsobrenos/direitosdoidoso.pdf" class="btn-primary" download="direitosdoidoso.pdf">Leia mais</a>
+           
         </div>
     </header>
 
@@ -67,7 +68,7 @@
             <div class="info-text">
                 <h3>Serviços integrados e personalizados.</h3>
                 <p>Na Vitalis, oferecemos uma plataforma completa que atende às diversas necessidades da pessoa idosa. Além disso, nossa abordagem é personalizada, permitindo que cada usuário encontre exatamente o que precisa de forma acessível e rápida.</p>
-                <a href="#" class="btn-secondary">Conheça já</a>
+                <a href="servicos.php" class="btn-secondary">Conheça já</a>
             </div>
         </div>
     </section>
@@ -112,7 +113,7 @@
                 </ul>
             </div>
         </div>
-        <button class="btn">Conheça já</button>
+        <button class="btn" onclick="window.location.href='calculoprevidencia.php'">Conheça já</button>
     </section>
 
     <!-- Footer -->
