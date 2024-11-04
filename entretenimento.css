@@ -77,12 +77,14 @@ nav a:hover {
     width: 250px;
     height: 400px; /* Para garantir que as imagens tenham o mesmo tamanho */
     object-fit: cover; /* Para garantir que as imagens se ajustem ao espaço */
-    border-radius: 20px; /* Bordas quadradas */
+    border-radius: 0; /* Bordas quadradas */
 }
 
 .content-text {
     margin-left: 50px;
     max-width: 500px;
+    text-align: justify; /* Justificar o texto */
+    
 }
 
 .content-text h1 {
@@ -143,12 +145,11 @@ nav a:hover {
 .card {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
-
+    border-radius: 0; /* Remove bordas arredondadas */
     padding: 0; /* Remove o preenchimento interno */
-    width: 300px;
+    width: 250px;
     margin: 4px; /* Aumenta o espaço entre os cartões */
     text-align: center;
-    border-radius: 20px;
 }
 
 .card img {
@@ -355,3 +356,4 @@ h1 {
     display: inline-block;
     margin-right: 10px;
 }
+
