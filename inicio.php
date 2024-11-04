@@ -22,7 +22,8 @@
         <div class="hero-content">
             <h1>Planeje hoje, aproveite o amanhã com segurança e <span>tranquilidade</span></h1>
             <p>Seja bem-vindo (a).</p>
-            <a href="#" class="btn-primary">Leia mais</a>
+            <a href="imgsobrenos/direitosdoidoso.pdf" class="btn-primary" download="direitosdoidoso.pdf">Leia mais</a>
+           
         </div>
     </header>
 
@@ -156,6 +157,7 @@
             <p class="kkk">Utilize nossos recursos.</p>
             <button class="começar">Vamos começar</button>
         </div>
+        <button class="btn">Conheça já</button>
     </section>
     <footer>
       <div class="footer-content">
