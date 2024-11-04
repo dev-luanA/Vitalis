@@ -14,7 +14,7 @@
       <ul class="nav-links">
         <li><a href="inicio.php">Início</a></li>
         <li><a href="sobrenos.php">Quem somos</a></li>
-        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="servicos.php">Serviços</a></li>
         <li><a href="#feedbacks">Agradecimentos</a></li>
         <li><a href="entrar.php">Entrar</a></li>
       </ul>
@@ -24,7 +24,7 @@
     <img src="img/mancha.png" alt="Mancha" />
 </div>
 <div class="outra-imagem">
-    <img src="img/manchaidosos.png" alt="Outra Imagem" />
+    <img src="img/oldcouple.png" alt="Outra Imagem" />
 </div>
 
 <section class="hero">

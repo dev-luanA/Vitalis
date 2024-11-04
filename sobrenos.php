@@ -60,7 +60,7 @@
         </div>
     </section>
     <section class="desejamos">
-        <h2 id="conhecer-dois">Nos contate através <br> de nosso email</h2>
+        <h2 id="conhecer-dois">Contate-nós através <br> de nosso email</h2>
 
     </section>
     <section class="border-color2">
@@ -68,7 +68,6 @@
             <div class="teste-dois">
                 <h2 id="texto-tresr">Desejamos te conhecer <br>e saber as mudanças que<br> você precisa</h2>
                 <p id="text-t">Sua preocupação, é a nossa.</p>
-                <button id="button-dois">Nós conheça melhor</button>
             </div>
             <img id="image-quatro" src="imgsobrenos/image 50.png" alt="Equipe colaborativa">
             

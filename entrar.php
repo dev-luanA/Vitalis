@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrar</title>
-    <link rel="stylesheet" href="entrar.css"> 
+    <link rel="stylesheet" href="entrar.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Font Awesome -->
 </head>
 <body>
     <div class="container">
         <div class="login-box">
             <div class="left-section">
                 <h1>BEM VINDO</h1>
-                <img src="img/logo.png" alt="Logo" class="logo"> 
+                <img src="img/logo.png" alt="Logo" class="logo">
                 <p>Não tem uma conta?</p>
                 <button class="create-account-btn">CRIAR CONTA</button>
             </div>
@@ -25,7 +26,9 @@
                     <div class="input-group">
                         <label for="password"><i class="fa fa-lock"></i></label>
                         <input type="password" id="password" name="password" placeholder="Senha" required>
-                        <span class="toggle-password">👁️</span>
+                        <span id="togglePassword" class="toggle-password">
+                            <i class="far fa-eye"></i> <!-- Ícone de olho -->
+                        </span>
                     </div>
                     <div class="remember-me">
                         <input type="checkbox" id="remember" name="remember">
@@ -36,5 +39,7 @@
             </div>
         </div>
     </div>
+
+    <script src="entrar.js"></script> <!-- Arquivo JS -->
 </body>
 </html>
