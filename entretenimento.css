@@ -82,7 +82,7 @@ header .entrar .btn-entrar:hover {
     width: 250px;
     height: 400px; /* Para garantir que as imagens tenham o mesmo tamanho */
     object-fit: cover; /* Para garantir que as imagens se ajustem ao espaço */
-    border-radius: 0; /* Bordas quadradas */
+    border-radius: 20px; /* Bordas quadradas */
 }
 
 .content-text {
@@ -152,9 +152,10 @@ header .entrar .btn-entrar:hover {
     border: 1px solid #ddd;
     border-radius: 0; /* Remove bordas arredondadas */
     padding: 0; /* Remove o preenchimento interno */
-    width: 250px;
+    width: 300px;
     margin: 4px; /* Aumenta o espaço entre os cartões */
     text-align: center;
+    border-radius: 20px;
 }
 
 .card img {

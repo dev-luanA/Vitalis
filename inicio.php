@@ -38,7 +38,7 @@
             <img src="img/entretenimento.png" alt="Ícone Entretenimento" class="card-icon">
             <h3>Entretenimento</h3>
             <p>Proporcionamos alternativas de entretenimento voltadas para a terceira idade.</p>
-            <a href="#" class="saiba-mais-1">Saiba mais</a>
+            <a href="entretenimento.php" class="saiba-mais-1">Saiba mais</a>
         </div>
         <div class="service-card">
             <img src="img/comunidade.png" alt="Ícone Comunidade" class="card-icon">
@@ -50,7 +50,7 @@
             <img src="img/iconeprev.png" alt="Ícone Comunidade" class="card-icon">
             <h3>Previdência</h3>
             <p>Oferecemos uma ferramenta de cálculo previdenciário, simplificando e orientando o planejamento da aposentadoria.</p>
-            <a href="#" class="saiba-mais-1">Saiba mais</a>
+            <a href="calculoprevidencia.php" class="saiba-mais-1">Saiba mais</a>
         </div>
     </section>
     >

@@ -33,7 +33,7 @@
     <section class="content">
       <div class="content-images">
           <img src="img/senior-couple-seaside-full-shot 1.png" alt="Idosos caminhando">
-          <img src="img/eunice-stahl-CxiJt88QJdQ-unsplash 4.png" alt="Idosos conversando em grupo">
+          <!-- <img src="img/eunice-stahl-CxiJt88QJdQ-unsplash 4.png" alt="Idosos conversando em grupo"> -->
       </div>
       <div class="content-text">
           <h1>Entretenimento para idosos</h1>
