@@ -38,19 +38,19 @@
             <img src="img/entretenimento.png" alt="Ícone Entretenimento" class="card-icon">
             <h3>Entretenimento</h3>
             <p>Proporcionamos alternativas de entretenimento voltadas para a terceira idade.</p>
-            <a href="#" class="saiba-mais-1">Saiba mais</a>
+            <a href="entretenimento.php" class="saiba-mais-1">Saiba mais</a>
         </div>
         <div class="service-card">
             <img src="img/comunidade.png" alt="Ícone Comunidade" class="card-icon">
             <h3>Comunidade</h3>
             <p>Os idosos podem compartilhar suas experiências, criando uma comunidade colaborativa de suporte mútuo.</p>
-            <a href="#" class="saiba-mais-1">Saiba mais</a>
+            <a href="REFERENCIARDEPOIS" class="saiba-mais-1">Saiba mais</a>
         </div>
         <div class="service-card">
             <img src="img/iconeprev.png" alt="Ícone Comunidade" class="card-icon">
             <h3>Previdência</h3>
             <p>Oferecemos uma ferramenta de cálculo previdenciário, simplificando e orientando o planejamento da aposentadoria.</p>
-            <a href="#" class="saiba-mais-1">Saiba mais</a>
+            <a href="calculoprevidencia.php" class="saiba-mais-1">Saiba mais</a>
         </div>
     </section>
     >
@@ -109,7 +109,7 @@
 
             </div>
         </div>
-        <button class="btn">Conheça já</button>
+        <button  class="btn">Conheça já</button>    <!--REFERENCIAR  -->
     </section>
 
 
