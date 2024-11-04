@@ -88,6 +88,8 @@ header .entrar .btn-entrar:hover {
 .content-text {
     margin-left: 50px;
     max-width: 500px;
+    text-align: justify; /* Justificar o texto */
+    
 }
 
 .content-text h1 {
@@ -359,3 +361,4 @@ h1 {
     display: inline-block;
     margin-right: 10px;
 }
+

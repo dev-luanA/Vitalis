@@ -7,25 +7,24 @@
 
 body {
     background-color: #f5f5f5;
-    overflow-x: hidden; 
+    overflow-x: hidden;
     padding-top: 150px;
 }
 
 header {
     display: flex;
     flex-direction: column;
-    position: fixed; /* Fixa o header no topo */
+    position: fixed;
     top: 0;
-    height: 17%;
     width: 100%;
-    background-color: #fff; /* Adiciona um fundo para o header */
+    height: 17%;
+    background-color: #fff;
     z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header .logo img {
     height: 150px;
-  
 }
 
 header ul {
@@ -33,84 +32,39 @@ header ul {
     list-style: none;
     margin-bottom: 20px;
     justify-content: flex-end;
+    max-width: 70%;
+    padding-right: 0;
+    position: relative;
+    top: -100px;
+    right: -270px;
 }
 
 header ul li {
-    margin: 30px;
+    margin-left: 30px;
 }
 
 header ul li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    font-size: 18px;
     transition: color 0.3s ease;
 }
-
 
 header ul li a:hover {
     color: #968EEB;
 }
 
-.mancha {
-    position: absolute;
-    top: -200px; /* Ajuste para mover a mancha para cima */
-    right: -200px; /* Ajuste este valor para mover mais para a direita */
-    width: 55%;
-    z-index: 1; /* Fica atrás do conteúdo */
-}
-
-.mancha img {
-    width: 75%;
-    height: auto;
-    object-fit: cover;
-}
-
-.outra-imagem {
-    position: absolute;
-    top: 150px; /* Ajuste para descer um pouco em relação à mancha */
-    right: 30px; /* Ajuste para mover mais para a esquerda em relação à mancha */
-    z-index: 2; /* Fica acima da mancha */
-    margin-right: 10%;
-
-}
-
-.outra-imagem img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 15px; /* Ajuste o valor conforme necessário */
-}
-
 .hero {
-    display: flex; /* Usando Flexbox para alinhar os itens */
-    flex-direction: row; /* Mantém os itens na mesma linha */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: space-between; /* Espaço entre os textos e a imagem */
-    padding: 20px; /* Adicione um padding para um espaçamento melhor */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 20px;
 }
 
-.hero .conteudo{
-    width: 100%;
-} /* Adicione uma classe para o container de texto */
-.hero div {
-    width: 50%; /* Define a largura de cada div para 50% */
-    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
-}
-
-.hero-image {
-    max-width: 100%; /* Ajusta o tamanho da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-}
-
-
-
-.center-text {
-    text-align: center;
-}
-
-.primeirafrase {
-    color: #968EEB;
-    font-weight: bold;
+.hero .conteudo {
+    width: 50%;
 }
 
 .hero h1 {
@@ -124,6 +78,7 @@ header ul li a:hover {
     color: #555;
     margin-bottom: 30px;
 }
+
 .cta-button {
     background-color: #968EEB;
     color: white;
@@ -132,22 +87,38 @@ header ul li a:hover {
     cursor: pointer;
     width: 200px;
     border-radius: 4px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra na direita e embaixo */
-    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #5246ce; /* Cor ao passar o mouse */
-    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4); /* Aumenta a sombra ao passar o mouse */
+    background-color: #5246ce;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4);
 }
 
+.hero-image {
+    max-width: 20%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.novas-oportunidades {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 40px 0;
+}
 
 .middle-images-container {
     display: flex;
     justify-content: center;
     margin: 20px 0;
-    background-color: #ffffff;
     padding: 20px 0;
+    background-color: #ffffff;
 }
 
 .middle-image {
@@ -157,16 +128,76 @@ header ul li a:hover {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
+.small-image {
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cards-section {
+    background-color: #f9f9f9;
+    padding: 50px 75px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card h3 {
+    font-size: 1.2em;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5em;
+    align-self: flex-end;
+    transition: color 0.3s ease;
+}
+
+.card a:hover {
+    color: #968EEB;
+}
+
+.card-1, .card-3 {
+    background-color: #968EEB;
+}
+
+.card-2, .card-4 {
+    background-color: #5BCE5F;
+}
+
 .reference {
     background-color: #f9f9f9;
     text-align: center;
     padding: 50px 20px;
-}
-
-.reference h2 {
-    font-size: 2em;
-    margin-bottom: 40px;
-    color: #333;
 }
 
 .reference-grid {
@@ -187,21 +218,6 @@ header ul li a:hover {
     max-width: 300px;
 }
 
-.reference-item h3 {
-    color: #968EEB;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-.reference-item p {
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.reference-item strong {
-    font-weight: bold;
-}
-
 .reference-item:hover {
     transform: translateY(-10px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
@@ -210,20 +226,6 @@ header ul li a:hover {
 .reference-item:active {
     transform: translateY(0px) scale(0.98);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-}
-
-.novas-oportunidades {
-    background-color: #ffffff;
-    padding: 40px 20px;
-    text-align: center;
-    margin: 40px 0;
-}
-
-.small-image {
-    width: 50%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 footer {
@@ -272,107 +274,4 @@ footer ul li a:hover {
 
 footer p {
     color: #333;
-}
-
-.nav-links {
-    list-style: none; /* Remove os marcadores da lista */
-    display: flex; /* Exibe os itens da lista em linha */
-    justify-content: flex-end; /* Alinha os itens à direita */
-    margin: 0; /* Remove margens padrão */
-    padding: 0;
-    max-width: 70%; /* Reduz a área de navegação para 70% da tela */
-    padding-right: 0; /* Remova o padding à direita */
-    position: relative; /* Torna possível ajustar a posição */
-    top: -100px; /* Ajuste conforme necessário para trazer para cima */
-    right: -270px; /* Ajuste esse valor para trazer para a direita */
-}
-
-  
-.nav-links li {
-    margin-left: 30px; /* Reduz a margem entre os itens */
-}
-  
-.nav-links a {
-    text-decoration: none; /* Remove sublinhado dos links */
-    color: black; /* Define a cor do texto dos links */
-    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
-}
-
-.referencia {
-    background-color: #ffffff;
-    padding: 40px 20px;
-    text-align: center;
-    margin: 40px 0;
-}
-
-.large-image {
-    width: 80%; /* Ajuste conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
-}
-
-.cards-section {
-    background-color: #f9f9f9;
-    padding: 50px 75px;
-    text-align: center;
-}
-
-.card-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.card {
-    background-color: #fff; /* Mantenha o fundo branco */
-    border-radius: 10px;
-    padding: 20px;
-    width: 250px; /* Mantenha a largura */
-    height: 250px; /* Defina uma altura fixa para tornar o card quadrado */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.card-1 {
-    background-color: #968EEB; /* Cor original */
-}
-
-.card-2 {
-    background-color: #5BCE5F; /* Cor original */
-}
-
-.card-3 {
-    background-color: #968EEB; /* Cor original */
-}
-
-.card-4 {
-    background-color: #5BCE5F; /* Cor original */
-}
-
-.card h3 {
-    font-size: 1.2em;
-    color: #000; /* Cor do texto do título em preto */
-    margin-bottom: 10px;
-}
-
-.card p {
-    font-size: 1em;
-    color: #000; /* Cor do texto do parágrafo em preto */
-    margin-bottom: 20px;
-}
-
-.card a {
-    text-decoration: none;
-    color: #000; /* Cor do link em preto */
-    font-size: 1.5em;
-    align-self: flex-end;
-    transition: color 0.3s ease;
-}
-
-.card a:hover {
-    color: #968EEB;
 }
