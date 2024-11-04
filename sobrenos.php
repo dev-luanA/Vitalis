@@ -94,6 +94,35 @@
             <img src="imgsobrenos/entretenimento.png" alt="Entretenimento personalizado">
         </div>
     </section>
+    <footer>
+      <div class="footer-content">
+          <div class="footer-logo">
+              <img src="img/logo.png" alt="Vitalis Logo">
+              <p>A Vitalis é uma plataforma inovadora que se dedica a atender as necessidades da população idosa, oferecendo uma gama de serviços e recursos essenciais.</p>
+              <div class="social-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+          <div class="footer-links">
+              <h4>Links</h4>
+              <a href="#">Home</a>
+              <a href="#">Serviços</a>
+              <a href="#">Feedbacks</a>
+              <a href="#">Entrar</a>
+          </div>
+          <div class="footer-legal">
+              <h4>Legal</h4>
+              <a href="#">Termos de uso</a>
+          </div>
+      </div>
+  
+      <div class="footer-copyright">
+          Copyright 2024, Todos os direitos reservados
+      </div>
+  </footer>
+
 </body>
 
 </html>
