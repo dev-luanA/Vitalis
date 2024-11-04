@@ -15,7 +15,7 @@
             <img src="img/logo.png" alt="Logo Vitalis" />
             <ul>
                 <li><a href="inicio.php">Início</a></li>
-                <li><a href="quemsomosnos.php">Quem somos</a></li>
+                <li><a href="sobrenos.php">Quem somos</a></li>
                 <li><a href="servicos.php">Serviços</a></li>
             </ul>
         </nav>
@@ -157,7 +157,7 @@
             <p class="kkk">Utilize nossos recursos.</p>
             <button class="começar" onclick="window.location.href='saudeidoso.php'">Vamos começar</button>
         </div>
-        <button  onclick="window.location.href='sobrenos.php'" class="btn">Conheça já</button> 
+        <button  onclick="window.location.href='entretenimento.php'" class="btn">Conheça já</button> 
     </section>
     <footer>
       <div class="footer-content">
