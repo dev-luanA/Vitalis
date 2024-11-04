@@ -10,19 +10,19 @@
 </head>
 
 <body>
-    <header>
-        <div class="teste">
-            <button class="menu-btn" onclick="toggleMenu()">&#9776; Menu</button>
-            <nav id="nav-menu" class="nav-menu">
-                <ul>
-                    <li><a href="home.php">Home</a></li>
-                    <li><a href="inicio.php">Serviços</a></li>
-                    <li><a href="home.php">Agradecimentos</a></li>
-                </ul>
-            </nav>
-        </div>
+<header>
+    <nav>
+            <img src="img/logo.png" alt="Logo Vitalis" />
+            <ul>
+                <li><a href="inicio.php">Início</a></li>
+                <li><a href="sobrenos.php">Quem somos</a></li>
+                <li><a href="servicos.php">Serviços</a></li>
+                <li><a href="entretenimento.php">Entretenimento</a></li>
+                <li><a href="saudeidoso.php">Saúde</a></li>
+                <li><a href="calculoprevidencia.php">Calculo de Previdencia</a></li>
+            </ul>
+        </nav>
     </header>
-
     <section class="conheca">
         <div class="text-con">
             <div>

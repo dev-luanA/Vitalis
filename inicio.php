@@ -15,8 +15,11 @@
             <img src="img/logo.png" alt="Logo Vitalis" />
             <ul>
                 <li><a href="inicio.php">Início</a></li>
-                <li><a href="quemsomosnos.php">Quem somos</a></li>
+                <li><a href="sobrenos.php">Quem somos</a></li>
                 <li><a href="servicos.php">Serviços</a></li>
+                <li><a href="entretenimento.php">Entretenimento</a></li>
+                <li><a href="saudeidoso.php">Saúde</a></li>
+                <li><a href="calculoprevidencia.php">Calculo de Previdencia</a></li>
             </ul>
         </nav>
         <div class="hero-content">
@@ -136,7 +139,7 @@
                 </li>
                 <li>
                     <img src="img/requisitos-icon.png" alt="Ícone de requisitos" class="icon">
-                    <strong>Requisitos:</strong> Facilitação do entendimento aos usuários;
+                    <strong>Requisitos:</strong> Facilitação do entendimento aos usuários
                 </li>
                 <li>
                     <img src="img/direitos-icon.png" alt="Ícone de direitos" class="icon">

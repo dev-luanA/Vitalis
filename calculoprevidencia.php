@@ -8,18 +8,19 @@
 </head>
 <body>
 
-<header>
-    <div class="logo">
-        <img src="img/logo.png" alt="Logo">
-    </div>
-    <ul class="nav-links">
-        <li><a href="inicio.php">Início</a></li>
-        <li><a href="#about">Quem somos</a></li>
-        <li><a href="#services">Serviços</a></li>
-        <li><a href="#contact">Agradecimentos</a></li>
-        <li><a href="#entrar">Entrar</a></li>
-    </ul>
-</header>
+<header class="hero-section">
+        <nav>
+            <img src="img/logo.png" alt="Logo Vitalis" />
+            <ul>
+                <li><a href="inicio.php">Início</a></li>
+                <li><a href="sobrenos.php">Quem somos</a></li>
+                <li><a href="servicos.php">Serviços</a></li>
+                <li><a href="entretenimento.php">Entretenimento</a></li>
+                <li><a href="saudeidoso.php">Saúde</a></li>
+                <li><a href="calculoprevidencia.php">Calculo de Previdencia</a></li>
+            </ul>
+        </nav>
+    </header>
 
 <div class="container">
     <div class="header">

@@ -9,17 +9,17 @@
 </head>
 <body>
     <header>
-        <div class="logo">
+    <nav>
             <img src="img/logo.png" alt="Logo Vitalis" />
-        </div>
-        <nav>
-            <a href="#">Início</a>
-            <a href="#">Saúde</a>
-            <a href="#">Serviços</a>
-            <a href="#">Entretenimento</a>
-            <a href="#">Previdência</a>
+            <ul>
+                <li><a href="inicio.php">Início</a></li>
+                <li><a href="sobrenos.php">Quem somos</a></li>
+                <li><a href="servicos.php">Serviços</a></li>
+                <li><a href="entretenimento.php">Entretenimento</a></li>
+                <li><a href="saudeidoso.php">Saúde</a></li>
+                <li><a href="calculoprevidencia.php">Calculo de Previdencia</a></li>
+            </ul>
         </nav>
-        <a href="#" class="button">Entrar</a>
     </header>
 
     <section class="hero">

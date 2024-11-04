@@ -10,24 +10,20 @@
 </head>
 <body>
     <!-- Cabeçalho -->
-    <header>
-      <div class="logo">
-          <img src="img/vitalis2.png" alt="Logo da Plataforma" width="120px">
-      </div>
-      <nav>
-          <ul>
-              <li><a href="#">Início</a></li>
-              <li><a href="#">Saúde</a></li>
-              <li><a href="#">Sobre nós</a></li>
-              <li><a href="#">Entretenimento</a></li>
-              <li><a href="#">Previdência</a></li>
-              <li><a href="#">Serviços</a></li>
-          </ul>
-      </nav>
-      <div class="entrar">
-          <a href="#" class="btn-entrar">Entrar</a>
-      </div>
-  </header>
+    <header class="hero-section">
+        <nav>
+            <img src="img/logo.png" alt="Logo Vitalis" />
+            <ul>
+                <li><a href="inicio.php">Início</a></li>
+                <li><a href="sobrenos.php">Quem somos</a></li>
+                <li><a href="servicos.php">Serviços</a></li>
+                <li><a href="entretenimento.php">Entretenimento</a></li>
+                <li><a href="saudeidoso.php">Saúde</a></li>
+                <li><a href="calculoprevidencia.php">Calculo de Previdencia</a></li>
+            </ul>
+        </nav>
+    </header>
+
   
 
     <section class="content">

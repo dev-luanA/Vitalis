@@ -12,59 +12,54 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Cabeçalho */
-header {
-    background-color: white; /* Cor de fundo */
-    color: black; /* Cor do texto */
-    height: 60px; /* Altura do header */
-    padding: 0 50px; /* Padding lateral */
+/* Hero Section */
+.hero-section {
+    color: 004d26;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Nav Styles */
+nav {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Alinha verticalmente */
-    border-bottom: 1px solid #ddd; /* Linha inferior para destacar o header */
+    align-items: center;
+    padding: 10px 20px;
+    Background: linear-gradient(135deg, #004d26, #007d4f);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra para destaque */
 }
 
-header .logo img {
-    width: 120px; /* Largura da imagem do logotipo */
-    height: auto;
+nav img {
+    width: 140px; /* Redimensionamento do logotipo */
 }
 
-header nav ul {
+nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    gap: 20px; /* Espaçamento entre os itens do menu */
+    gap: 20px; /* Espaçamento entre os links */
+    margin: 0;
 }
 
-header nav ul li a {
-    color: black; /* Cor dos links do menu */
+nav li {
+    position: relative;
+}
+
+nav a {
     text-decoration: none;
-    font-size: 16px; /* Tamanho da fonte dos links */
-    font-family: Arial, sans-serif; /* Fonte */
-    font-weight: normal; /* Estilo de texto normal */
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-header nav ul li a:hover {
-    color: #9e5edb; /* Cor ao passar o mouse */
-    text-decoration: underline;
+nav a:hover {
+    color: #fffa; /* Cor de destaque */
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo no hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Efeito de brilho */
 }
-
-header .entrar .btn-entrar {
-    background-color: #968EEB; /* Cor de fundo do botão */
-    color: white; /* Cor do texto */
-    padding: 10px 20px; /* Padding do botão */
-    border-radius: 5px; /* Borda arredondada */
-    text-decoration: none;
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-    transition: background-color 0.3s ease;
-}
-
-header .entrar .btn-entrar:hover {
-    background-color: #7e4fdc; /* Cor de fundo ao passar o mouse */
-}
-
 /* Seção de Abertura */
 .content {
     display: flex;

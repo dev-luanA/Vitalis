@@ -7,19 +7,19 @@
   <title>Serviços - Vitalis</title>
 </head>
 <body>
-
 <header>
-    <div class="logo">
-      <img src="img/logo.png" alt="Logo">
-    </div>
-      <ul class="nav-links">
-        <li><a href="inicio.php">Início</a></li>
-        <li><a href="sobrenos.php">Quem somos</a></li>
-        <li><a href="#servicos">Serviços</a></li>
-        <li><a href="#feedbacks">Agradecimentos</a></li>
-        <li><a href="entrar.php">Entrar</a></li>
-      </ul>
-  </header>
+    <nav>
+            <img src="img/logo.png" alt="Logo Vitalis" />
+            <ul>
+                <li><a href="inicio.php">Início</a></li>
+                <li><a href="sobrenos.php">Quem somos</a></li>
+                <li><a href="servicos.php">Serviços</a></li>
+                <li><a href="entretenimento.php">Entretenimento</a></li>
+                <li><a href="saudeidoso.php">Saúde</a></li>
+                <li><a href="calculoprevidencia.php">Calculo de Previdencia</a></li>
+            </ul>
+        </nav>
+    </header>
 
   <section class="hero">
     <img src="img/idosotablet.png" alt="Idoso usando tablet">
