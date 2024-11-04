@@ -46,7 +46,7 @@
         <h2>Tempo de contribuição</h2>
         <div class="contribution-content">
             <p>A Aposentadoria por Tempo de Contribuição é uma modalidade concedida ao trabalhador que atinge o período mínimo de contribuição estabelecido pela Previdência Social, levando em consideração outros fatores relevantes para a aposentadoria.</p>
-            <img src="img/calculoprevidencia.png" alt="Imagem Tempo de Contribuição" class="contribution-image">
+            <!-- <img src="img/calculoprevidencia.png" alt="Imagem Tempo de Contribuição" class="contribution-image"> -->
         </div>
     </div>
 
