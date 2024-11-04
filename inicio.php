@@ -74,7 +74,7 @@
             <h3>Serviços integrados e personalizados.</h3>
             <p>Na Vitalis, oferecemos uma plataforma completa que atende às diversas necessidades da pessoa idosa. Além disso,
                 nossa abordagem é personalizada, permitindo que cada usuário encontre exatamente o que precisa de forma acessível e rápida.</p>
-            <a href="#" class="btn-secondary">Conheça já</a>
+            <a href="servicos.php" class="btn-secondary">Conheça já</a>
         </div>
         <img src="img/servicos.png" alt="Imagem de serviços">
     </div>
@@ -144,7 +144,7 @@
                     <strong>Direitos:</strong> Entender os direitos e possibilidades de cada um
                 </li>
             </ul>
-            <a href="#" class="btn">Conheça já</a>
+            <a href="calculoprevidencia.php" class="btn">Conheça já</a>
         </div>
     </div>
 </section>
