@@ -8,14 +8,16 @@
 
 /* Estilos globais */
 body {
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    background-color: #f5f5f5;
+    overflow-x: hidden; 
 }
 
-/* Cabeçalho */
+.hero-section {
+    color: 004d26;
+    padding: 20px;
+    text-align: center;
+}
+
 /* Nav Styles */
 nav {
     display: flex;

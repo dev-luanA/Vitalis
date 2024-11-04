@@ -160,7 +160,6 @@
             <p class="kkk">Utilize nossos recursos.</p>
             <button class="começar">Vamos começar</button>
         </div>
-        <button class="btn">Conheça já</button>
     </section>
     <footer>
       <div class="footer-content">
