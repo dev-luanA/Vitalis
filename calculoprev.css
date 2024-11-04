@@ -8,31 +8,31 @@ body {
 
 header {
     display: flex;
-    align-items: center; /* Alinha verticalmente a logo e a navbar */
-    justify-content: space-between; /* Espaça logo e navbar */
-    padding: 10px 20px; /* Adiciona algum espaço interno */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
 }
 
 .nav-links {
-    display: flex; /* Garante que os links fiquem em linha */
-    list-style: none; /* Remove marcadores da lista */
-    padding: 0; /* Remove preenchimento */
-    margin: 0; /* Remove margens */
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-links li {
-    margin-left: 15px; /* Diminui o espaço entre os links */
+    margin-left: 15px;
 }
 
 .nav-links a {
-    text-decoration: none; /* Remove sublinhado dos links */
-    color: #333; /* Cor do texto do link */
-    transition: color 0.3s ease; /* Efeito de transição na cor do link */
-    padding: 8px 12px; /* Adiciona preenchimento ao redor dos links */
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+    padding: 8px 12px;
 }
 
 .nav-links a:hover {
-    color: #968EEB; /* Cor do link ao passar o mouse */
+    color: #968EEB;
 }
 
 .container {
@@ -42,24 +42,24 @@ header {
 }
 
 .header {
-    text-align: left; /* Alinha o título à esquerda */
+    text-align: left;
     padding: 20px 0;
 }
 
 .grid-content {
-    display: flex; /* Altera para flexbox para que os itens fiquem ao lado */
-    align-items: flex-start; /* Alinha os itens no início */
-    gap: 45px; /* Adiciona espaçamento entre os itens */
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 .text-content {
-    text-align: left; /* Mantém o texto alinhado à esquerda */
+    text-align: left;
 }
 
 .image-grid {
     max-width: 100%;
     border-radius: 8px;
-    margin-bottom: 20px; /* Adiciona espaçamento abaixo da imagem */
+    margin-bottom: 20px;
 }
 
 .section {
@@ -70,33 +70,31 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo para a Caixa Roxa */
 .purple-box {
-    background-color: #e0d7f5; /* Cor de fundo roxa suave */
+    background-color: #e0d7f5;
     padding: 40px 20px;
     border-radius: 8px;
-    margin: 60px 0; /* Espaçamento entre o conteúdo acima e abaixo */
+    margin: 60px 0;
     text-align: center;
 }
 
 .purple-box h2 {
-    color: #4b3f72; /* Cor do título roxa mais forte */
-    font-size: 28px; /* Tamanho da fonte do título */
-    margin-bottom: 20px; /* Espaço inferior do título */
+    color: #4b3f72;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 .purple-box p {
     color: #333;
     font-size: 16px;
-    line-height: 1.6; /* Para espaçamento entre as linhas do texto */
+    line-height: 1.6;
 }
 
-/* Estilo da Caixa de Informações (Ícone e Texto) */
 .info-box {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px; /* Espaçamento entre o texto e o ícone */
+    margin-top: 30px;
 }
 
 .info-box img {
@@ -136,34 +134,34 @@ header {
 .images-section .image-box {
     flex: 1;
     margin-right: 20px;
-    padding: 20px; /* Adicionado preenchimento */
-    background-color: #fff; /* Fundo branco para cada box */
-    border: 1px solid #e0e0e0; /* Borda sutil */
-    border-radius: 8px; /* Bordas arredondadas */
-    text-align: center; /* Centraliza o texto */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para efeito de profundidade */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .images-section .image-box:last-child {
-    margin-right: 0; /* Remove margem direita do último box */
+    margin-right: 0;
 }
 
 .images-section img {
     width: 100%;
     max-width: 200px;
-    border-radius: 8px; /* Bordas arredondadas para as imagens */
-    margin-bottom: 10px; /* Espaçamento inferior */
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 .images-section .image-box h3 {
-    margin: 10px 0; /* Margem entre o título e o texto */
-    color: #4b3f72; /* Cor do título */
+    margin: 10px 0;
+    color: #4b3f72;
 }
 
 .images-section .image-box p {
-    text-align: justify; /* Justifica o texto */
+    text-align: justify;
     font-size: 14px;
-    color: #666; /* Cor do texto */
+    color: #666;
 }
 
 footer {
@@ -212,4 +210,70 @@ footer ul li a:hover {
 
 footer p {
     color: #333;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 1200px) {
+    .container {
+        width: 90%; /* Largura do container para telas menores */
+    }
+
+    .grid-content {
+        flex-direction: column; /* Muda para coluna em telas pequenas */
+        align-items: center; /* Centraliza os itens */
+    }
+
+    .text-content {
+        text-align: center; /* Centraliza o texto no mobile */
+    }
+
+    .images-section {
+        flex-direction: column; /* Muda para coluna em telas menores */
+    }
+
+    .images-section .image-box {
+        margin-right: 0; /* Remove margem direita */
+        margin-bottom: 20px; /* Adiciona espaço inferior entre boxes */
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column; /* Muda a direção para coluna em telas menores */
+        align-items: flex-start; /* Alinha os links à esquerda */
+    }
+
+    .nav-links li {
+        margin-left: 0; /* Remove margem esquerda */
+        margin-bottom: 10px; /* Adiciona espaço entre os links */
+    }
+
+    header {
+        flex-direction: column; /* Muda o layout do header para coluna */
+        align-items: flex-start; /* Alinha à esquerda */
+    }
+
+    .purple-box {
+        padding: 20px; /* Reduz o padding na caixa roxa */
+    }
+
+    .purple-box h2 {
+        font-size: 24px; /* Tamanho da fonte do título reduzido */
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 24px; /* Reduz o tamanho do título em telas pequenas */
+    }
+
+    .purple-box p,
+    .info-box span,
+    .images-section .image-box p {
+        font-size: 14px; /* Reduz o tamanho da fonte para textos menores */
+    }
+
+    footer .footer-section {
+        margin: 10px 0; /* Ajusta margens do footer */
+    }
 }
