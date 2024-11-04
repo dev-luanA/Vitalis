@@ -136,7 +136,7 @@
                 </li>
                 <li>
                     <img src="img/requisitos-icon.png" alt="Ícone de requisitos" class="icon">
-                    <strong>Requisitos:</strong> Facilitação do entendimento aos usuários
+                    <strong>Requisitos:</strong> Facilitação do entendimento aos usuários;
                 </li>
                 <li>
                     <img src="img/direitos-icon.png" alt="Ícone de direitos" class="icon">
