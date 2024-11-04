@@ -97,7 +97,7 @@ header ul li a:hover {
 }
 
 .hero-image {
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
     border-radius: 20px;
 }
