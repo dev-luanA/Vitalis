@@ -55,7 +55,9 @@
         <div class="image-box">
             <img src="img/requisitos.png" alt="Imagem 1">
             <h3>Requisitos</h3>
-            <p>A idade mínima para aposentadoria urbana é de 65 anos para homens e 62 anos para mulheres, conforme as regras do sistema previdenciário, que visam garantir o tempo necessário de contribuição antes da aposentadoria.</p>
+            <p>Comprove a carência mínima de 180 contribuições;
+                Tenha 15 anos de tempo de contribuição; 
+                Tenha a idade mínima de 65 anos, se homem, ou 62 anos de idade, se mulher.</p>
         </div>
         <div class="image-box">
             <img src="img/idademinima.png" alt="Imagem 2">

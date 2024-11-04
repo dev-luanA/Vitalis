@@ -41,19 +41,19 @@
             <img src="img/entretenimento.png" alt="Ícone Entretenimento" class="card-icon">
             <h3>Entretenimento</h3>
             <p>Proporcionamos alternativas de entretenimento voltadas para a terceira idade.</p>
-            <a href="#" class="saiba-mais-1">Saiba mais</a>
+            <a href="entretenimento.php" class="saiba-mais-1">Saiba mais</a>
         </div>
         <div class="service-card">
             <img src="img/comunidade.png" alt="Ícone Comunidade" class="card-icon">
             <h3>Comunidade</h3>
             <p>Os idosos podem compartilhar suas experiências, criando uma comunidade colaborativa de suporte mútuo.</p>
-            <a href="#" class="saiba-mais-1">Saiba mais</a>
+            <a href="REFERENCIARDEPOIS" class="saiba-mais-1">Saiba mais</a>
         </div>
         <div class="service-card">
             <img src="img/iconeprev.png" alt="Ícone Comunidade" class="card-icon">
             <h3>Previdência</h3>
             <p>Oferecemos uma ferramenta de cálculo previdenciário, simplificando e orientando o planejamento da aposentadoria.</p>
-            <a href="#" class="saiba-mais-1">Saiba mais</a>
+            <a href="calculoprevidencia.php" class="saiba-mais-1">Saiba mais</a>
         </div>
     </section>
     >
@@ -77,7 +77,7 @@
             <h3>Serviços integrados e personalizados.</h3>
             <p>Na Vitalis, oferecemos uma plataforma completa que atende às diversas necessidades da pessoa idosa. Além disso,
                 nossa abordagem é personalizada, permitindo que cada usuário encontre exatamente o que precisa de forma acessível e rápida.</p>
-            <a href="#" class="btn-secondary">Conheça já</a>
+            <a href="servicos.php" class="btn-secondary">Conheça já</a>
         </div>
         <img src="img/servicos.png" alt="Imagem de serviços">
     </div>
@@ -112,7 +112,7 @@
 
             </div>
         </div>
-        <button class="btn">Conheça já</button>
+        <button  class="btn">Conheça já</button>    <!--REFERENCIAR  -->
     </section>
 
 
@@ -147,7 +147,7 @@
                     <strong>Direitos:</strong> Entender os direitos e possibilidades de cada um
                 </li>
             </ul>
-            <a href="#" class="btn">Conheça já</a>
+            <a href="calculoprevidencia.php" class="btn">Conheça já</a>
         </div>
     </div>
 </section>
@@ -158,8 +158,9 @@
         <div class="content">
             <h2 class="kk"><span>Esperamos </span><span class="underline">ajudar</span> você a se conectar consigo</h2>
             <p class="kkk">Utilize nossos recursos.</p>
-            <button class="começar">Vamos começar</button>
+            <button class="começar" onclick="window.location.href='saudeidoso.php'">Vamos começar</button>
         </div>
+        <button  onclick="window.location.href='entretenimento.php'" class="btn">Conheça já</button> 
     </section>
     <footer>
       <div class="footer-content">
