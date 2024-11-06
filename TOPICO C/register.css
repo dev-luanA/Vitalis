@@ -1,0 +1,88 @@
+/* Reseta as margens e o padding padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define um estilo de fundo para a página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura da tela */
+}
+
+/* Estiliza a tela de cadastro */
+#register-screen {
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espaçamento interno */
+    width: 300px; /* Largura fixa */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estiliza o título */
+#register-screen h2 {
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    font-size: 24px; /* Tamanho da fonte */
+    color: #2A7B4D; /* Cor do título */
+}
+
+/* Estiliza os campos de entrada */
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaço entre os campos */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estiliza o botão de envio */
+button {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #2A7B4D; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 18px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de mão ao passar sobre o botão */
+}
+
+/* Muda a cor do botão ao passar o mouse */
+button:hover {
+    background-color: #1f5c3e; /* Cor de fundo escura ao passar o mouse */
+}
+
+/* Estiliza a mensagem de erro */
+.error-message {
+    color: red; /* Cor da mensagem de erro */
+    margin-top: 10px; /* Espaço acima da mensagem */
+}
+
+/* Estiliza a mensagem de sucesso */
+.success-message {
+    color: green; /* Cor da mensagem de sucesso */
+    margin-top: 10px; /* Espaço acima da mensagem */
+}
+
+/* Estiliza o link de login */
+.register-link {
+    margin-top: 15px; /* Espaço acima do link */
+}
+
+.register-link a {
+    color: #2A7B4D; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.register-link a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
