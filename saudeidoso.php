@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-    <nav>
+<header class="hero-section">
+        <nav>
             <img src="img/logo.png" alt="Logo Vitalis" />
             <ul>
                 <li><a href="inicio.php">Início</a></li>

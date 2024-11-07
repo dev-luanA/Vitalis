@@ -62,7 +62,7 @@
       <div class="card card-3">
         <h3>Know How</h3>
         <p>A Vitalis disponibiliza um espaço de mentoria "Know How", onde idosos podem compartilhar sua vasta experiência profissional com jovens e iniciantes.</p>
-        <a href="knowhow.php">→</a>
+        <a href="./TOPICO C/login.php ">→</a>
       </div>
       <div class="card card-4">
         <h3>Previdência</h3>

@@ -7,8 +7,8 @@
   <title>Serviços - Vitalis</title>
 </head>
 <body>
-<header>
-    <nav>
+<header class="hero-section">
+        <nav>
             <img src="img/logo.png" alt="Logo Vitalis" />
             <ul>
                 <li><a href="inicio.php">Início</a></li>
@@ -20,6 +20,7 @@
             </ul>
         </nav>
     </header>
+
 
   <section class="hero">
     <img src="img/idosotablet.png" alt="Idoso usando tablet">

@@ -10,8 +10,8 @@
 </head>
 
 <body>
-<header>
-    <nav>
+<header class="hero-section">
+        <nav>
             <img src="img/logo.png" alt="Logo Vitalis" />
             <ul>
                 <li><a href="inicio.php">Início</a></li>
@@ -52,11 +52,9 @@
         <div class="todo">
             <div class="teste-dois">
                 <h2 id="texto-tres">Quem <br>nós somos?</h2>
-                <button id="button-dois">Nós conheça melhor</button>
-
+               <a href="inicio.php"> <button id="button-dois">Nós conheça melhor</button></a>
             </div>
             <img id="image-tres" src="imgsobrenos/tres.png" alt="Equipe colaborativa">
-            
         </div>
     </section>
     <section class="desejamos">

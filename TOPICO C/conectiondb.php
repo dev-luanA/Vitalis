@@ -2,7 +2,7 @@
 $servername = "localhost";  // Endereço do servidor de banco de dados (geralmente "localhost")
 $username = "root";         // Nome de usuário do MySQL
 $password = "";             // Senha do MySQL
-$dbname = "chat_app";       // Nome do banco de dados
+$dbname = "chat";       // Nome do banco de dados
 
 // Criação da conexão
 $conn = new mysqli($servername, $username, $password, $dbname);

@@ -1,11 +1,19 @@
-body {
-    font-family: Arial, sans-serif;
 
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+  }
 
-/* Hero Section */
 .hero-section {
-    color: 004d26;
+    background: linear-gradient(135deg, #004d26, #007d4f);
+    color: white;
     padding: 20px;
     text-align: center;
 }
@@ -16,7 +24,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    Background: linear-gradient(135deg, #004d26, #007d4f);
+    background: rgba(0, 0, 0, 0.2); /* Fundo transparente */
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra para destaque */
 }
@@ -51,6 +59,7 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.2); /* Fundo no hover */
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Efeito de brilho */
 }
+
 .container {
     width: 70%;
     margin: 0 auto;

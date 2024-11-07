@@ -47,7 +47,7 @@
             <img src="img/comunidade.png" alt="Ícone Comunidade" class="card-icon">
             <h3>Comunidade</h3>
             <p>Os idosos podem compartilhar suas experiências, criando uma comunidade colaborativa de suporte mútuo.</p>
-            <a href="REFERENCIARDEPOIS" class="saiba-mais-1">Saiba mais</a>
+            <a href="./TOPICO C/login.php" class="saiba-mais-1">Saiba mais</a>
         </div>
         <div class="service-card">
             <img src="img/iconeprev.png" alt="Ícone Comunidade" class="card-icon">
@@ -112,7 +112,7 @@
 
             </div>
         </div>
-        <button  class="btn">Conheça já</button>    <!--REFERENCIAR  -->
+        <a href="./TOPICO C/login.php"><button class="btn">Conheça já</button> </a>   <!--REFERENCIAR  -->
     </section>
 
 
@@ -131,19 +131,19 @@
             <h2>Apoio ao planejamento financeiro e previdenciário.</h2>
             <ul class="benefits-list">
                 <li>
-                    <img src="img/calculo-icon.png" alt="Ícone de cálculo" class="icon">
+                    <img src="./img/calculo2.png" alt="Ícone de cálculo" class="icon">
                     <strong>Cálculo:</strong> Ferramenta de cálculo previdenciário
                 </li>
                 <li>
-                    <img src="img/planejamento-icon.png" alt="Ícone de planejamento" class="icon">
+                    <img src="./img/planejamento-icon.png" alt="Ícone de planejamento" class="icon">
                     <strong>Planejamento:</strong> Planejar o futuro e compreender
                 </li>
                 <li>
-                    <img src="img/requisitos-icon.png" alt="Ícone de requisitos" class="icon">
+                    <img src="./img/requisitos2.png" alt="Ícone de requisitos" class="icon">
                     <strong>Requisitos:</strong> Facilitação do entendimento aos usuários
                 </li>
                 <li>
-                    <img src="img/direitos-icon.png" alt="Ícone de direitos" class="icon">
+                    <img src="./img/direitos.png" alt="Ícone de direitos" class="icon">
                     <strong>Direitos:</strong> Entender os direitos e possibilidades de cada um
                 </li>
             </ul>
@@ -160,7 +160,6 @@
             <p class="kkk">Utilize nossos recursos.</p>
             <button class="começar" onclick="window.location.href='saudeidoso.php'">Vamos começar</button>
         </div>
-        <button  onclick="window.location.href='entretenimento.php'" class="btn">Conheça já</button> 
     </section>
     <footer>
       <div class="footer-content">
