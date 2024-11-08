@@ -5,31 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entretenimento para Idosos</title>
     <link rel="stylesheet" href="entretenimento.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 </head>
 <body>
     <!-- Cabeçalho -->
-    <header class="hero-section">
-        <nav>
-            <img src="img/logo.png" alt="Logo Vitalis" />
-            <ul>
-                <li><a href="inicio.php">Início</a></li>
-                <li><a href="sobrenos.php">Quem somos</a></li>
-                <li><a href="servicos.php">Serviços</a></li>
-                <li><a href="entretenimento.php">Entretenimento</a></li>
-                <li><a href="saudeidoso.php">Saúde</a></li>
-                <li><a href="calculoprevidencia.php">Calculo de Previdencia</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header class="hero-section">
+    <nav>
+        <img src="img/logo.png" alt="Logo Vitalis" />
 
-  
+        <!-- Ícone de hambúrguer -->
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- Menu de navegação (para telas grandes) -->
+        <ul class="desktop-menu">
+            <li><a href="inicio.php">Início</a></li>
+            <li><a href="sobrenos.php">Quem somos</a></li>
+            <li><a href="servicos.php">Serviços</a></li>
+            <li><a href="entretenimento.php">Entretenimento</a></li>
+            <li><a href="saudeidoso.php">Saúde</a></li>
+            <li><a href="calculoprevidencia.php">Cálculo de Previdência</a></li>
+        </ul>
+
+        <!-- Menu de navegação (para telas pequenas) -->
+        <ul class="mobile-menu">
+            <li><a href="inicio.php">Início</a></li>
+            <li><a href="sobrenos.php">Quem somos</a></li>
+            <li><a href="servicos.php">Serviços</a></li>
+            <li><a href="entretenimento.php">Entretenimento</a></li>
+            <li><a href="saudeidoso.php">Saúde</a></li>
+            <li><a href="calculoprevidencia.php">Cálculo de Previdência</a></li>
+        </ul>
+    </nav>
+</header>
+
+
 
     <section class="content">
       <div class="content-images">
           <img src="img/senior-couple-seaside-full-shot 1.png" alt="Idosos caminhando">
-          <!-- <img src="img/eunice-stahl-CxiJt88QJdQ-unsplash 4.png" alt="Idosos conversando em grupo"> -->
+          <img src="img/eunice-stahl-CxiJt88QJdQ-unsplash 4.png" alt="Idosos conversando em grupo"> 
       </div>
       <div class="content-text">
           <h1>Entretenimento para idosos</h1>
@@ -160,6 +179,29 @@
           Copyright 2024, Todos os direitos reservados
       </div>
   </footer>
+  
+  
+
+
+<script>
+    // Alterna o menu hambúrguer
+function toggleMenu() {
+    const menu = document.querySelector('.mobile-menu');
+    menu.classList.toggle('active');
+}
+
+// Fecha o menu quando o usuário clicar fora do menu ou do ícone de menu
+document.addEventListener('click', function(event) {
+    const menu = document.querySelector('.mobile-menu');
+    const menuIcon = document.querySelector('.menu-icon');
+    
+    // Verifica se o clique foi fora do menu e do ícone de menu
+    if (!menu.contains(event.target) && !menuIcon.contains(event.target)) {
+        menu.classList.remove('active');
+    }
+});
+
+</script>
 </body>
 </html>
 
