@@ -19,7 +19,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    Background: linear-gradient(135deg, #004d26, #007d4f);
+    background: linear-gradient(135deg, #004d26, #007d4f);
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra para destaque */
 }
@@ -54,6 +54,7 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.2); /* Fundo no hover */
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Efeito de brilho */
 }
+
 .button {
     padding: 10px 25px;
     background-color: #7d4ede;
@@ -143,11 +144,12 @@ nav a:hover {
     color: #333;
 }
 
+/* Estilo para centralizar e animar os ícones */
 .icon-container {
     background-color: #8FC58A;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 80px; /* Aumentado para melhor visibilidade */
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,9 +157,11 @@ nav a:hover {
 }
 
 .icon-container i {
-    font-size: 2rem;
-    color: #000;
+    font-size: 2rem; /* Ajuste de tamanho do ícone */
+    color: white;
 }
+
+
 
 /* Caixa verde */
 .green-box {
@@ -239,6 +243,76 @@ nav a:hover {
     margin-top: 10px;
     color: #666;
 }
+
+
+footer {
+    background-color: #F3F1FA;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+}
+
+.footer-logo img {
+    width: 200px;
+}
+
+.footer-logo p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.footer-logo .social-icons a {
+    margin: 0 10px 0 0;
+    text-decoration: none;
+    color: #666;
+    font-size: 20px;
+}
+
+.footer-links, .footer-legal {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links h4, .footer-legal h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.footer-links a, .footer-legal a {
+    text-decoration: none;
+    color: #666;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer-legal {
+    align-items: flex-start;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+
 
 /* Responsividade */
 @media (max-width: 1024px) {
